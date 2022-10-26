@@ -1,0 +1,56 @@
+body{
+    margin: 0 .3rem !important;
+}
+*{
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-weight: 700;
+}
+h2{
+    font-weight: 400;
+    margin-top: 3rem !important;
+}
+h4{
+    font-weight: 400;
+}
+p{
+    font-weight: 300;
+}
+.header{
+    margin-bottom: 3rem;
+}
+.li__a{
+    color: white !important;
+}
+.logo{
+    width: 10rem !important;
+}
+.navbar__boton{
+    background-color: white !important;
+}
+
+.ejer, .consolaImagen {
+    margin: 0 !important;
+    margin-top: 3rem !important;
+    padding: 0 !important;
+}
+.contenedorPrincipal{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.a__inicio {
+    text-decoration: none !important;
+}
+
+
+@media (min-width:768px){
+    .ejer, .consolaImagen {
+        max-width: 50% !important;
+        margin: auto !important;
+    }
+    .contenedorPrincipal{
+        width: 100% !important;
+    }
+}
